@@ -1,0 +1,1 @@
+redis-server   /opt/apps/redis7/redis.conf
