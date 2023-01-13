@@ -1,6 +1,15 @@
 # 常用指令
 
-重要指令:工作流程图上的7个指令(clone+fetch+pull+checkout+add+push+commit)
+**新建仓库：**
+
+* git init
+* ssh-keygen -t rsa(不断回车)
+* cat ~/.ssh/id_rsa.pub（获取公钥）
+* 配置SSH公钥
+* ssh -T git@gitee.com（验证公钥是否成功）
+* git remote add origin git@gitee.com:（）
+
+重要指令:工作流程git remote add origin git@gitee.com:czbk_zhang_meng/git_test.git图上的7个指令(clone+fetch+pull+checkout+add+push+commit)
 
 命令如下：
 
@@ -32,8 +41,8 @@
 ​	-远程操作：
 ​						git clone <远程地址> [本地文件夹]	clone远程仓库到本地
 ​						git pull	拉取远端仓库的修改并合并
-​						git push [--set-upstream] origin 分支名	推送本地修改到远端分支
-​										-set-upstream表示推送到远端的同时并且建立起和远端分支的关联关系。
+​						**git push [--set-upstream] origin 分支名	推送本地修改到远端分支**
+**​										-set-upstream表示推送到远端的同时并且建立起和远端分支的关联关系。**
 
 ​	-版本回退：
 
